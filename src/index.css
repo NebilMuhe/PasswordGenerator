@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700;800&family=Urbanist:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkbox {
+    @apply appearance-none checked:bg-green-400 default:ring-2 w-5 h-5 border-2 rounded-md border-green-300 cursor-pointer;
+}
+.icon {
+    @apply pointer-events-none absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 text-white opacity-0 transition-opacity peer-checked:opacity-100;
+}
