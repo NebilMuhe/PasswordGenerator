@@ -7,7 +7,9 @@ This project is used to generate password based on the user preferences on like(
 ![Alt text](pass.png)
 
 #Run
+
 npm i
+
 npm run dev
 
 # Password_Generator
